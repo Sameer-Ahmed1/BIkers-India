@@ -1,3 +1,9 @@
+.wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width: 100%;
+
+}
 body {
     margin: 0;
     display: flex;
@@ -14,11 +20,13 @@ body {
 
 .header .top {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 16px 25px;
+    align-items: center;
 }
 .header .top .logo {
     color:#F9FAF8;
-    font-size: 24px;
+    font-size: 44px;
     font-weight: bold;
 }
 
@@ -156,5 +164,56 @@ p.text {
     font-weight: 800;
     text-align: end;
     justify-self: end;
+}
+
+/*fourth part */
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    background-color: #2676c7;
+    padding: 50px 60px 50px 50px;
+    border-radius: 20px;
+}
+.text .bold {
+    color: white;
+    font-size: xx-large;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.text .light {
+    color: white;
+    font-size: larger;
+}
+.message .icon {
+    width: 200px;
+    display: flex;
+    justify-content: end;
+}
+.icon button {
+    font-size:large ;
+    font-weight: 600;
+    border-radius: 15px;
+    padding: 8px;
+    background-color: #2676c7;
+    color: white;
+    border-color: white;
+}
+
+/*fifth part i.e the footer*/
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+    color: white;
+    font-size: large;
 }
 
